@@ -8,7 +8,7 @@ const Main = () => {
   };
 
   return (
-    <main>
+    <main className='flex-grow-1 my-2'>
       <Container fluid>
         <Button variant="primary">Primary</Button>
         {getNome()}
